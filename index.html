@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FULL PAGE JS</title>
+    
+    <!--https://cdnjs.com/libraries/fullPage.js/3.0.5-->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.min.css" integrity="sha512-hDXpx6vRwBR+f4rnj8BDQRpwfi4lvztz1KPkBPCG2XkTKiJ5Y6zq7/NsDmJRIQbquKchG0DVc6gmZiOE0ZXrvg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.9/fullpage.min.css" integrity="sha512-Go0fX6Al6Eab+N7QbSFHYBpwdcU2rbfONUcbRIS4z+9yzLlj7Xj8ao2BAOPE9Qtxdl+7iq04xzzcF4OTOWoUWg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/main.css">
+
+    
+</head>
+<body>
+    <div id="fullPage">
+        <div class="section s1">
+            <!-- <h1>The First Section <a href="#section2">clicky</a></h1>  -->
+            <h1>RBSLOPEZ PHOTOGRAPHY</h1> 
+<!-- 
+            <div class="slide">
+                <h1>First Slide</h1>
+            </div>
+            <div class="slide">
+                <h1>Second Slide</h1>
+            </div>
+
+            <div class="slide">
+                <h1>Third Slide</h1>
+            </div> -->
+
+
+        </div>
+        <div class="section s2">
+            <h1>About</h1>
+
+        </div>
+        <div class="section s3">
+            <h1>Contact</h1>
+
+        </div>
+    </div>
+
+    <!-- Photo by <a href="https://unsplash.com/@alex_andrews?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Andrews</a> on <a href="https://unsplash.com/s/photos/black-camera?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
+  
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.min.js" integrity="sha512-+m1+m9XBnZXowk9jSNIlZYgtOPTIu6aUHha/4/3dk84PQcpWgrNd4/zKmOYno0BQK9nuJ6WgYBnuPqCrmvMNtg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.9/fullpage.min.js" integrity="sha512-JSVRnP8UFs0ieN/cvP9v4vmW1CotIaEKKN7W+4JaKNrllZolTv2aJfVGn4BFdfZ1jRZxgTAAaXWdlZbEm9iwFA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        new fullpage('#fullPage',{
+            autoScrolling: true,
+            navigation: true,
+            anchors:['section1','section2','section3'], // set anchors for sections
+            navigationTooltips: ['Home', 'About', 'Contact'], // add navigation tips
+            showActiveTooltip: true, // show active tool tips
+            scrollingSpeed: 1000,
+            controlArrows: false,
+            slidesNavigation: true
+        })
+    </script>
+
+</body>
+</html>

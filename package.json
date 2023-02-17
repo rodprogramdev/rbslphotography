@@ -1,0 +1,14 @@
+{
+  "name": "fullpagejs",
+  "version": "1.0.0",
+  "description": "FullPageScrollingProject",
+  "main": "index.js",
+  "scripts": {
+     "compile:sass":"node-sass sass/main.scss css/main.css"
+  },
+  "author": "Rodrigo Lopez",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

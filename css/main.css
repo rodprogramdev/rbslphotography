@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+h1 {
+  font-family: 'Montserrat';
+  text-align: center;
+  color: white; }
+
+.s1 {
+  background: url("../images/one.jpg");
+  background-size: cover;
+  background-position: center; }
+  .s1 h1 {
+    font-size: 4.5rem; }
+
+.s2 {
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.315), rgba(128, 128, 128, 0.539)), url("../images/pexels-rodrigo-bonzerr-s-lopez-11938013.jpg");
+  background-size: cover;
+  background-position: center; }
+  .s2 h1 {
+    text-align: left;
+    margin-left: 2em;
+    font-size: 4rem; }
+
+.s3 {
+  background-image: linear-gradient(to right bottom, rgba(128, 128, 128, 0.539), rgba(0, 0, 0, 0.759)), url("../images/pexels-rodrigo-bonzerr-s-lopez-11937981.jpg");
+  background-size: cover;
+  background-position: center; }
+  .s3 h1 {
+    text-align: right;
+    margin-right: 2em;
+    font-size: 2em; }
+
+span {
+  background: white !important; }
+
+.fp-slidesNav.fp-bottom {
+  margin-left: 1em !important; }
